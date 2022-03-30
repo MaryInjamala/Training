@@ -17,7 +17,7 @@ List<String> list;
 	
 	@Test
 	public void testAdd() {
-		boolean result = list.add("Ram");
+		boolean result = list.add("Mary");
 		assertTrue(result);
 		//We can also use assertEquals(1, list.size()) instead os assertTrue.
 		
@@ -25,25 +25,25 @@ List<String> list;
 	
 	@Test
 	public void testRemove() {
-		list.add("Ram");
-		list.add("Shaym");
-		list.add("Bhaym");
+		list.add("Mary");
+		list.add("Priyanka");
+		list.add("Madhu");
 		
 		String result = list.remove(2);
-		assertEquals("Bhaym", result);
+		assertEquals("Madhu", result);
 	}
 	
 	@Test(expected = IndexOutOfBoundsException.class)
 	public void testRemoveFromBlank() {
 		String result = list.remove(0);
-		assertEquals("Ram", result);
+		assertEquals("Mary", result);
 	}
 	
 	@Test
 	public void testClear() {
-		list.add("Ram");
-		list.add("Shaym");
-		list.add("Bhaym");
+		list.add("Mary");
+		list.add("Priyanka");
+		list.add("Madhu");
 		
 		list.clear();
 		assertEquals(0, list.size());
