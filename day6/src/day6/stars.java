@@ -1,13 +1,6 @@
 package day6;
 
 public class stars {
-	/**
-	 * printRowOfKSize taking An Input Argument And Printing "row" Number of Rows
-	 * and inside every Iteration we Are printing it By "rows" times and every time
-	 * the "row is getting decremented..
-	 * 
-	 * @param row
-	 */
 	static void printRowOfKSize(int row) {
 		if(row<=0) {
 			throw new IllegalArgumentException("row value should be greater than zero");
@@ -21,8 +14,15 @@ public class stars {
 	}
 
 	public static void main(String[] args) {
-		printRowOfKSize(-5);
+		printRowOfKSize(7);
 
 	}
 
 }
+/**
+ * printRowOfKSize taking An Input Argument And Printing "row" Number of Rows
+ * and inside every Iteration we Are printing it By "rows" times and every time
+ * the "row is getting decremented..
+ * 
+ * @param row
+ */
