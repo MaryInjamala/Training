@@ -29,7 +29,6 @@ public class UserController {
 		System.out.println(user.getAge());
 		System.out.println(user.getArea());
 		users.add(user);
-		//return "saved succesfully";
 		service.save(user);
 	}
 

@@ -15,6 +15,7 @@ public class User {
 	String name;
 	int age;
 	String area;
+	
 	public String getName() {
 		return name;
 	}
