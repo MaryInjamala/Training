@@ -1,5 +1,7 @@
 package com.rakuten;
 
-public interface orderRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface orderRepository extends JpaRepository<Order, Integer> {
 
 }
