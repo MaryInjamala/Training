@@ -1,0 +1,139 @@
+Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+x="Hello"
+print(X)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    print(X)
+NameError: name 'X' is not defined. Did you mean: 'x'?
+x="Hello":
+    
+SyntaxError: invalid syntax
+x= "Hello"
+print(x)
+Hello
+print(type(x))
+<class 'str'>
+x = 20
+print(x)
+20
+print(type(x))
+<class 'int'>
+x=["apple", "banana", "cherry"]
+print(x,type(x))
+['apple', 'banana', 'cherry'] <class 'list'>
+x = ("apple", "banana", "cherry")
+print(x,type(x))
+('apple', 'banana', 'cherry') <class 'tuple'>
+x = range(6)
+print(x,type(x))
+
+range(0, 6) <class 'range'>
+x = b"Hello"
+print(x,type(x))
+b'Hello' <class 'bytes'>
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+SyntaxError: multiple statements found while compiling a single statement
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+SyntaxError: multiple statements found while compiling a single statement
+y = 2.8  # float
+z = 1j   # complex
+print(type(x))
+
+<class 'int'>
+print(type(y))
+<class 'float'>
+print(type(z))
+<class 'complex'>
+y=356467
+z=-4356
+print(type(x))
+<class 'int'>
+print(type(y))
+<class 'int'>
+print(type(z))
+<class 'int'>
+x = 3+5j
+y = 5j
+
+z = -5j
+
+print(type(x))
+<class 'complex'>
+print(type(z))
+<class 'complex'>
+print(type(x,yz))
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    print(type(x,yz))
+NameError: name 'yz' is not defined. Did you mean: 'y'?
+print(type(x,y,z))
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    print(type(x,y,z))
+TypeError: type.__new__() argument 1 must be str, not complex
+x = 1
+y = 2.8
+z = 1j
+a = float(x)
+b = int(y)
+
+print(a,b)
+1.0 2
+print(type(a,b))
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    print(type(a,b))
+TypeError: type() takes 1 or 3 arguments
+print(type(a),type(b))
+<class 'float'> <class 'int'>
+import random
+print(random.randrange(1, 10))
+
+2
+print("Hello")
+Hello
+print('Hello')
+Hello
+a = "Hello"
+
+print(a)
+Hello
+a ="Mary"
+print(a)
+
+Mary
+a = "Hello, Mary Injamala!"
+print(a[2])
+l
+for x in "banana":
+    print(x)
+
+    
+b
+a
+n
+a
+
+n
+a
+
+for x in "mary":
+     print(x)
+
+     
+m
+a
+r
+y
+
+print(len(x))
+1
+print("mary" in x)
+False
